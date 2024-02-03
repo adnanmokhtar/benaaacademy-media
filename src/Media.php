@@ -4,13 +4,13 @@ namespace Benaaacademy\Media;
 
 use Benaaacademy\Options\Facades\Option;
 use Intervention\Image\Facades\Image;
-use Intervention\Image\ImageServiceProvider;
+// use Intervention\Image\ImageServiceProvider;
 
 class Media extends \Benaaacademy\Platform\Plugin
 {
-    protected $providers = [
-        ImageServiceProvider::class
-    ];
+    // protected $providers = [
+    //     ImageServiceProvider::class
+    // ];
 
     protected $aliases = [
         'Image' => Image::class
