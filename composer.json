@@ -13,8 +13,8 @@
     "license": "MIT",
     "type": "package",
     "require": {
-        "benaaacademy/platform": "^1.0.6",
-        "intervention/image": "^3.3"
+        "benaaacademy/platform": "^1.0.7",
+        "intervention/image": "dev-master"
     },
     "autoload": {
         "psr-4": {
