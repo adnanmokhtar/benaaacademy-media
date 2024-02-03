@@ -13,12 +13,14 @@
     "license": "MIT",
     "type": "package",
     "require": {
-        "benaaacademy/platform": "^1.0.8",
+        "benaaacademy/platform": "^1.0.9",
         "intervention/image": "dev-main"
     },
     "autoload": {
         "psr-4": {
             "Benaaacademy\\Media\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
